@@ -25,18 +25,9 @@ for (let i = 0; i < boxes.length; i++) {
 });
 };
 
-
-
-
 // if($('#one') === $('#two') && $('#one') === $('#three')) {
 //   alert("you won!");
 // }
-
-
-
-
-
-
 
 
 // $('#one').on("click", function() {

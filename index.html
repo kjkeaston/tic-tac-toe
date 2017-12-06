@@ -24,11 +24,11 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1>Tic Tac Toe</h1>
+          <h1><span id="tic">Tic</span><span> </span><span id="tac">Tac</span> <span></span><span id="toe">Toe</span></h1>
           <hr>
         </div>
       </div>
-      <div class="row">
+      <div class="row main-board-area">
         <form>
         <!-- a column represents our game board -->
         <!-- the `offset` class helps us center the board -->
@@ -55,7 +55,8 @@
               <br>
               <br>
               <label for="reset">Click to play again!</label>
-              <input type="submit" name="Reset" value="Reset Game">
+              <input type="submit" name="Reset" value="Reset Game" />
+              <br>
             </div>
           </div>
         </form>
